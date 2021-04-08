@@ -1,0 +1,360 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .parent_flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    background: lightseagreen;
+    width: 100%;
+    height: 100vh;
+} */
+
+/* Justify-content:center */
+
+/* flez-direction -  */
+
+/* flex-wrap:wrap - это стиль сворачивает блоки , которые перестают помещатся в определенных углах */
+
+/* .parent_flex div{
+    border: 1px solid black;
+    height: 300px;
+    padding: 30px;
+    width: 300px;
+}
+
+.box1{
+    background: red;
+    color: white;
+    order: 1;
+}
+
+.box2{
+    background: blue;
+    color: white;
+    order: 2;
+}
+
+.box3{
+    background: green;
+    color: white;
+    order: 3;
+}
+
+.box4{
+    background: coral;
+    color: black;
+    order: 4;
+}
+
+/* media */
+
+
+/* header */
+
+/* header ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    background: yellowgreen;
+    padding: 10px 15px;
+    border-radius: 20px;
+    position: relative;
+}
+
+header ul li a:hover{
+    background: coral;
+}
+
+.header ul li a::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transition: 1s;
+}
+
+.header ul li a:hover:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background: black;
+} */ 
+
+
+
+/*               */
+
+.header_banner{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/cos.jpg") center / cover fixed;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .logo{
+    list-style: none;
+}
+
+.nav .logo li a .nasa{
+    width: 100px;
+    height: 80px;
+    background: url("../img/nasa.png") center / cover;
+}
+
+.nav .list {
+    list-style: none;
+}
+
+.nav .list li a:nth-child(1){
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.nav .list li:nth-child(2) a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header_lower{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    top: 24%;
+}
+
+.header_lower h1{
+    color: greenyellow;
+    font-size: 60px;
+}
+
+.header_lower a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    left: 50px;
+    transition: 1s;
+}
+
+.header_lower a:hover{
+    left: 0;пшеgit
+    background: blueviolet;
+}
+
+/* main */
+main{
+    margin-top: 10%;
+}
+
+.main_block1{
+    width: 90%;
+    height: 40vh;
+    background: url("../img/tower.jpg") center / cover;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+/* main block 2 */
+
+.main_block2{
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 90%;
+    margin: 2% auto;
+}
+
+.main_block2 .box{
+    position: relative;
+}
+
+.main_block2 .box a div h1{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.main_block2 .box a div:hover h1{
+    top: 20%;
+}
+
+.block2_hover{
+    display: none;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+.block2_hover{
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+
+.box1 a div{
+    width: 400px;
+    height: 500px;
+    background: url("../img/1.jpg") center /cover;
+}
+.box2 a div{
+    width: 400px;
+    height: 500px;
+    background: url("../img/2.jpg") center /cover;
+}
+.box3 a div{
+    width: 400px;
+    height: 500px;
+    background: url("../img/3.png") center /cover;
+}
+
+/* MIAN BLOCK2 TEXT */
+
+/* main block 3 */
+.main_block3 h1{
+    color: gray;
+    font-size: 60px;
+    padding-left: 2%;
+}
+
+.block3_flex{
+    width: 90%;    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block3_flex .box a div{
+    position: relative;
+}
+
+
+.block3_flex .box::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: green;
+    opacity: 0.4;
+}
+
+.box01 a div{
+    width: 300px;
+    height: 200px;
+    background: url("../img/4.jpg") center /cover;
+}
+.box02 a div{
+    width: 300px;
+    height: 200px;
+    background: url("../img/5.jpg") center /cover;
+}
+.box03 a div{
+    width: 300px;
+    height: 200px;
+    background: url("../img/6.jpg") center /cover;
+}
+.box04 a div{
+    width: 300px;
+    height: 200px;
+    background: url("../img/7.jpeg") center /cover;
+}
+
+/* main block 4 */
+.main_block4{
+    width: 90%;
+    margin: 5% auto;
+    display: flex;
+}
+
+.block4_left {
+    width: 50%;
+}
+
+.block4_left p{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.block4_right{
+    width: 70%;
+    height: 90vh;
+}
+
+.block4_right a video{
+    width: 100%;
+    height: 100%;
+}
+
+/* footer */
+
+footer{
+    background: url(../img/foot.jpg) center / cover;
+    height: 50vh;
+}
+
+.footer_title{
+    padding-top: 5%;
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+}
+
+.footer_title i{
+    font-size: 40px;
+}
+
+.musor{
+    margin: 2% 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.musor a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 2%;
+}
